@@ -1,0 +1,39 @@
+{
+    "name": "floki",
+    "version": "0.0.1",
+    "description": "React starter template made with Parcel",
+    "main": "index.html",
+    "scripts": {
+        "start": "parcel serve ./src/index.html",
+        "build": "parcel build ./src/index.html",
+        "test": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/shingravirei/floki.git"
+    },
+    "keywords": [
+        "react",
+        "parcel",
+        "template"
+    ],
+    "author": "shingravirei",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/shingravirei/floki/issues"
+    },
+    "homepage": "https://github.com/shingravirei/floki#readme",
+    "devDependencies": {
+        "eslint": "^7.2.0",
+        "eslint-config-airbnb": "^18.2.0",
+        "eslint-plugin-import": "^2.22.0",
+        "eslint-plugin-jsx-a11y": "^6.3.1",
+        "eslint-plugin-react": "^7.20.3",
+        "eslint-plugin-react-hooks": "^4.0.0",
+        "parcel": "^2.0.0-beta.1"
+    },
+    "dependencies": {
+        "react": "^16.13.1",
+        "react-dom": "^16.13.1"
+    }
+}
